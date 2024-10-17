@@ -15,13 +15,21 @@ public class Fizzbuzz {
         boolean containsThree = digitContains(num, 3);
         boolean containsFive = digitContains(num, 5);
         if (num % 3 == 0 && num % 5 == 0) {
+            
             return "FIZZBUZZ";
+
         } else if (num % 3 == 0 || containsThree) {
+            
             return "FIZZ";
+        
         } else if (num % 5 == 0 || containsFive) {
+        
             return "BUZZ";
+        
         } else {
+        
             return "NADA";
+        
         }
     
     }
