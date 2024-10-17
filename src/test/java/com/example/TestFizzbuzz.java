@@ -75,7 +75,6 @@ public class TestFizzbuzz {
         assertEquals(false, Fizzbuzz.digitContains(6789, 5));
         assertEquals(true, Fizzbuzz.digitContains(10123, 1));
         assertEquals(false, Fizzbuzz.digitContains(0, 5));
-  
     }
     
 
